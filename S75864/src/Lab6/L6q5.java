@@ -29,8 +29,8 @@ public class L6q5 {
                     System.out.println("Payment Coupon for " + date.getMonth());
                     System.out.println("Building No : " + i + "\t\t" + "Unit No : " + u );
                     System.out.println();
-                    System.out.println("Amount of rent : " + rent);
-                    System.out.println("Rent due : " + formattedDate);
+                    System.out.printf("Amount of rent :RM %.2f" , rent);
+                    System.out.println("\nRent due : " + formattedDate);
                 month++;    
                 }
             u++;    
