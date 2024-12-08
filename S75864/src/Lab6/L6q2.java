@@ -15,7 +15,7 @@ public class L6q2 {
         
         while (kilogram <200){
             pound=kilogram*2.2;
-            System.out.println(kilogram + "\t " +  pound);
+           System.out.printf( "%d\t%.1f%n ",kilogram  ,  pound);
             kilogram +=2;
         }
     }
